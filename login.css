@@ -1,0 +1,101 @@
+.login {
+    display: flex;
+    flex-direction: column;
+    position:absolute;
+    height: fit-content;
+    left: 513px;
+    top: 85px;
+    width: 250px;
+    right: -650px;
+    background-color: #ffffff;
+    padding:90px ;
+    padding-top: 30px;
+    border-radius: 10px;
+    border-color: bisque;
+    border-style: solid;
+    justify-content: center;
+    align-items: center;
+    bottom: 30px;
+}
+.user {
+    height: 30px;
+    width: 255px;
+    margin-bottom: 25px;
+    text-align: center;
+    border-radius: 10px;
+    border-style: solid;
+    border-color: black;
+
+}
+.sign {
+    position: relative;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 45px;
+    margin-bottom: 10px;
+   }
+.rav {
+    display: flex;
+    position: static;
+    top: 0px;
+    bottom: 0px;
+    flex-direction: column;
+    background-color: aqua;
+}
+.box {
+    display: grid;
+    position: static;
+    background-color: beige;
+    z-index: 1000;
+}
+.button {
+    display: flex;
+    height: 35px;
+    width:165px ;
+    justify-content: center;
+    align-items: center;
+    border-color: aqua;
+    background-color:#39FF14;
+    cursor: pointer;
+    transition: background-color 0.7s;
+}
+.button:hover {
+    background-color: white;
+}
+.checkbox {
+    display: flex;
+    margin-top: 27px;
+}
+.fp {
+    display: flex;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: smaller;
+    font-weight: lighter;
+    margin-top: 13px;
+}
+.log {
+    margin-top: 10px;
+}
+body{
+    background-color: aqua;
+}
+.hi {
+    position: relative;
+    height: 43px;
+    left: 29px;
+    margin-bottom: 15px;
+
+}
+.cas {
+
+    height: 30px;
+    width: 30px;
+}
+.ra {
+    top: 500px;
+}
+
+@media only screen and (max-width: 414pxs){
+    body {
+        visibility: collapse
+    }
+}
